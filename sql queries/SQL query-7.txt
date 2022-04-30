@@ -1,0 +1,8 @@
+SELECT DATE_TRUNC(dates.datekey, "month") as mnt, COUNT(1)
+FROM employees CROSS JOIN dates
+WHERE dates.datekey >= employees.startdate
+AND (dates.datekey <= employees.enddate
+OR employees.enddate is null)
+GROUP BY DATE_TRUNC(dates.datekey, "month")
+
+
