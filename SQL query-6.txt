@@ -1,6 +1,0 @@
-SELECT dates.datekey, employees.startdate, 
-IF(employees.enddate is null, "9999-12-31", employees.enddate) edate, employees.*
-FROM employees CROSS JOIN dates
-WHERE dates.datekey >= employees.startdate
-AND (dates.datekey <= employees.enddate
-OR employees.enddate is null)
