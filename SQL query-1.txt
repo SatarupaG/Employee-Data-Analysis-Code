@@ -1,5 +1,0 @@
--- Find employee start date's range of the employee table
-
-SELECT MIN(employees.startdate), MAX(employees.startdate)
-FROM employees
-
