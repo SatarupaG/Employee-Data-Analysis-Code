@@ -1,0 +1,10 @@
+WITH `dl` AS (SELECT DISTINCT
+CAST(DATE_ADD(DATE_ADD(DATE_TRUNC(dates.datekey, "month"), 1, "month"), -1, "day") AS DATE) eomonth
+FROM dates)
+SELECT dl.eomonth, COUNT(1)
+FROM employees CROSS JOIN `dl` AS dl
+WHERE dl.eomonth >= employees.startdate
+AND (dl.eomonth <= employees.enddate
+OR employees.enddate is null)
+GROUP BY dl.eomonth
+ORDER BY dl.eomonth
