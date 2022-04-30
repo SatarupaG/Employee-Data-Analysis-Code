@@ -1,5 +1,5 @@
 # Employee-Data-Analysis-Code
-Analyze employee data of an organization.
+This repository hosts the SQL queries to analyze employee data of an organization.
 
 
 ## Link to online repository 
@@ -9,4 +9,4 @@ Data ->  https://data.world/satarupag/employees
 
 SQL  -> https://data.world/satarupag/employee-data-analysis
 
-Note: You can only access the data and the associated SQL queries after logging in. 
+**Note:** You can only access the data and the associated SQL queries after logging in. 
