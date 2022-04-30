@@ -1,0 +1,5 @@
+SELECT MONTH(employees.startdate), YEAR(employees.startdate), COUNT(1)
+FROM employees
+GROUP BY MONTH(employees.startdate), YEAR(employees.startdate)
+ORDER BY 2, 1
+
