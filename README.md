@@ -2,7 +2,7 @@
 This repository hosts the SQL queries to analyze employee data of an organization.
 
 
-## Link to online repository 
+## Link to online data source
 You can also access the data and the associated SQL queries at the following location:
 
 Data ->  https://data.world/satarupag/employees
