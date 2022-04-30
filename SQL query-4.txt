@@ -1,6 +1,0 @@
-SELECT COUNT(1)
-FROM employees
-WHERE employees.startdate >= '2008-07-01'
-AND(employees.enddate <= '2008-07-01'
-OR employees.enddate is NULL)
-
