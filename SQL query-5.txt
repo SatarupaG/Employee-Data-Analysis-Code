@@ -1,4 +1,0 @@
-SELECT dates.datekey, employees.startdate, employees.enddate, COUNT(1)
-FROM employees CROSS JOIN dates
-WHERE dates.datekey BETWEEN employees.startdate AND employees.enddate
-GROUP BY dates.datekey, employees.startdate, employees.enddate
