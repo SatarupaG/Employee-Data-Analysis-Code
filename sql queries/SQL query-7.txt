@@ -1,3 +1,5 @@
+-- Find the active employees who worked in the organization on any given date but group them by month (the problem here is that it counts every employee for every day) 
+
 SELECT DATE_TRUNC(dates.datekey, "month") as mnt, COUNT(1)
 FROM employees CROSS JOIN dates
 WHERE dates.datekey >= employees.startdate

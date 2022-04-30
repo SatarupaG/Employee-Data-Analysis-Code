@@ -1,3 +1,5 @@
+-- Designate the month with an end of month date (Limit the display to the first 10 records)
+
 SELECT dates.datekey,
 DATE_TRUNC(dates.datekey, "month") month,
 DATE_ADD(DATE_TRUNC(dates.datekey, "month"), 1, "month") next_month,

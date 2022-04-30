@@ -1,3 +1,5 @@
+-- Find the employees who joined the organization on a given start date
+
 SELECT *
 FROM employees
 WHERE employees.startdate >= '2008-07-01' 

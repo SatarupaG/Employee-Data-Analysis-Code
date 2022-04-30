@@ -1,3 +1,5 @@
+- Find the active employees who worked in the organization on any given date but add a check using if statement for those without end dates (the problem here is that it counts every employee for every day)
+
 SELECT dates.datekey, employees.startdate, 
 IF(employees.enddate is null, "9999-12-31", employees.enddate) edate, employees.*
 FROM employees CROSS JOIN dates
