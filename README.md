@@ -3,8 +3,10 @@ Analyze employee data of an organization.
 
 
 ## Link to online repository 
-You can also access the data and the associated SQL queries at the followling location:
+You can also access the data and the associated SQL queries at the following location:
 
 Data ->  https://data.world/satarupag/employees
 
-SQL -> 
+SQL  -> https://data.world/satarupag/employee-data-analysis
+
+Note: You can only access the data and the associated SQL queries after logging in. 
