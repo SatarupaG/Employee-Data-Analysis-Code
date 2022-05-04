@@ -1,5 +1,5 @@
 # Employee-Data-Analysis-Code
-This repository hosts the SQL queries to analyze employee data of an organization
+This repository hosts the SQL queries to analyze employee data of an organization.
 
 
 ## Link to online data source
